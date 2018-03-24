@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  parallax effect
 //
-//  Created by apple on 24/03/18.
+//  Created by Tanay Bhattacharjee on 24/03/18.
 //  Copyright © 2018 Tanay Bhattacharjee. All rights reserved.
 //fff
 
