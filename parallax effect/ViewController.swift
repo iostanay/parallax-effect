@@ -50,15 +50,15 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         let font = UIFont.boldSystemFont(ofSize: 15)
-        var height1 = heightForView(ary_data[0] , font: font, width: screen_width - 20)
+        var height = heightForView(ary_data[0] , font: font, width: screen_width - 20)
        
-        if height1 > 1000 {
-            height1 += 60
-        }else if height1 > 8000{
-            height1 += 100
+        if height > 1000 {
+            height += 60
+        }else if height > 7000{
+            height += 100
         }
       
-        return 153*widthFactor + height1 + 24 + 30
+        return 153*widthFactor + height + 24 + 30
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
